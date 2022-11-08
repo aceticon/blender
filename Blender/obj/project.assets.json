@@ -8,29 +8,35 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Eric Vinicius\\.nuget\\packages\\": {}
+    "C:\\Users\\Breno\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Eric Vinicius\\source\\repos\\Blender\\Blender\\Blender.vbproj",
+      "projectUniqueName": "C:\\Users\\Breno\\source\\repos\\blender\\Blender\\Blender.vbproj",
       "projectName": "Blender",
-      "projectPath": "C:\\Users\\Eric Vinicius\\source\\repos\\Blender\\Blender\\Blender.vbproj",
-      "packagesPath": "C:\\Users\\Eric Vinicius\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Eric Vinicius\\source\\repos\\Blender\\Blender\\obj\\",
+      "projectPath": "C:\\Users\\Breno\\source\\repos\\blender\\Blender\\Blender.vbproj",
+      "packagesPath": "C:\\Users\\Breno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Breno\\source\\repos\\blender\\Blender\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Eric Vinicius\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Breno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0-windows"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\Eric Vinicius\\Downloads": {},
-        "https://api.nuget.org/v2/": {},
-        "https://www.nuget.org/api/v2/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0-windows7.0": {

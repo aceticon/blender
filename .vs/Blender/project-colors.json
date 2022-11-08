@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "262f2cff-deb9-4031-8380-e5dd9058b001": {
+      "ProjectGuid": "262f2cff-deb9-4031-8380-e5dd9058b001",
+      "DisplayName": "Blender",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

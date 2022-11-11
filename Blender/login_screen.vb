@@ -7,12 +7,15 @@ Public Class login_screen
         port=3306;username=root;password=@Vemseraceticon2022;database=blendcapital")
 
     Private Sub login_screen_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
         Me.SuspendLayout()
 
         Me.FormBorderStyle = FormBorderStyle.None
         Me.Height = 200
         Me.Width = 400
+
         Dim p As New Drawing2D.GraphicsPath()
+
         p.StartFigure()
         p.AddArc(New Rectangle(0, 0, 20, 20), 180, 90)
         p.AddLine(20, 0, Me.Width - 20, 0)
@@ -22,19 +25,18 @@ Public Class login_screen
         p.AddLine(Me.Width - 20, Me.Height, 20, Me.Height)
         p.AddArc(New Rectangle(0, Me.Height - 20, 20, 20), 90, 90)
         p.CloseFigure()
+
         Me.Region = New Region(p)
 
     End Sub
 
-    Private Sub txtEsqueciSenha_Click(sender As Object, e As EventArgs) Handles txtEsqueciSenha.Click
-        MsgBox("Entre em contato com o suporte para soliciar a recuperação de senha!", vbInformation)
-    End Sub
-
     Private Sub txtClose_Click(sender As Object, e As EventArgs) Handles txtClose.Click
+
         Application.ExitThread()
+
     End Sub
 
-    Private Sub btnEntrar_Click(sender As Object, e As EventArgs) Handles btnEntrar.Click
+    Private Sub ptbEntrar_Click(sender As Object, e As EventArgs) Handles ptbEntrar.Click
 
         Try
             Dim vEmailAddress As New System.Net.Mail.MailAddress(txtEmail.Text)
@@ -63,6 +65,12 @@ Public Class login_screen
         Next
 
         MsgBox("E-mail ou senha invalidos!", vbInformation)
+
+    End Sub
+
+    Private Sub ptbEsqSenha_Click(sender As Object, e As EventArgs) Handles ptbEsqSenha.Click
+
+        MsgBox("Entre em contato com o suporte para soliciar a recuperação de senha!", vbInformation)
 
     End Sub
 End Class

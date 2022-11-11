@@ -30,6 +30,8 @@ Partial Class login_screen
         Me.txtEsqueciSenha = New System.Windows.Forms.Label()
         Me.txtClose = New System.Windows.Forms.Label()
         Me.btnEntrar = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'lblEmail
@@ -37,6 +39,7 @@ Partial Class login_screen
         Me.lblEmail.BackColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(52, Byte), Integer))
         Me.lblEmail.Font = New System.Drawing.Font("Marlin Geo Medium", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel)
         Me.lblEmail.ForeColor = System.Drawing.Color.White
+        Me.lblEmail.Image = Global.Blender.My.Resources.Resources.circulo
         Me.lblEmail.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.lblEmail.Location = New System.Drawing.Point(18, 95)
         Me.lblEmail.Margin = New System.Windows.Forms.Padding(0)
@@ -51,6 +54,8 @@ Partial Class login_screen
         Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(52, Byte), Integer))
         Me.Label1.Font = New System.Drawing.Font("Marlin Geo Medium", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel)
         Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Image = Global.Blender.My.Resources.Resources.circulo
+        Me.Label1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Label1.Location = New System.Drawing.Point(18, 138)
         Me.Label1.Margin = New System.Windows.Forms.Padding(0)
         Me.Label1.Name = "Label1"
@@ -126,6 +131,8 @@ Partial Class login_screen
         Me.btnEntrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnEntrar.Font = New System.Drawing.Font("Marlin Geo Medium", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel)
         Me.btnEntrar.ForeColor = System.Drawing.Color.White
+        Me.btnEntrar.Image = Global.Blender.My.Resources.Resources.circulo
+        Me.btnEntrar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btnEntrar.Location = New System.Drawing.Point(296, 116)
         Me.btnEntrar.Margin = New System.Windows.Forms.Padding(0)
         Me.btnEntrar.Name = "btnEntrar"
@@ -135,25 +142,39 @@ Partial Class login_screen
         Me.btnEntrar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btnEntrar.UseVisualStyleBackColor = False
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.PictureBox1.Image = Global.Blender.My.Resources.Resources.logo
+        Me.PictureBox1.Location = New System.Drawing.Point(-17, -100)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(395, 196)
+        Me.PictureBox1.TabIndex = 12
+        Me.PictureBox1.TabStop = False
+        '
         'login_screen
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(19, Byte), Integer), CType(CType(185, Byte), Integer), CType(CType(94, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(400, 200)
-        Me.Controls.Add(Me.btnEntrar)
         Me.Controls.Add(Me.txtClose)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.btnEntrar)
         Me.Controls.Add(Me.txtEsqueciSenha)
         Me.Controls.Add(Me.txtSenha)
         Me.Controls.Add(Me.txtEmail)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.lblEmail)
+        Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "login_screen"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Blender - Tela de Login"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -167,4 +188,5 @@ Partial Class login_screen
     Friend WithEvents txtEsqueciSenha As Label
     Friend WithEvents txtClose As Label
     Friend WithEvents btnEntrar As Button
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

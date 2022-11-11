@@ -24,7 +24,6 @@ Public Class login_screen
         p.CloseFigure()
         Me.Region = New Region(p)
 
-
     End Sub
 
     Private Sub txtEsqueciSenha_Click(sender As Object, e As EventArgs) Handles txtEsqueciSenha.Click

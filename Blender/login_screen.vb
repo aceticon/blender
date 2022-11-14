@@ -11,8 +11,8 @@ Public Class login_screen
         Me.SuspendLayout()
 
         Me.FormBorderStyle = FormBorderStyle.None
-        Me.Height = 200
-        Me.Width = 400
+        Me.Height = 280
+        Me.Width = 530
 
         Dim p As New Drawing2D.GraphicsPath()
 

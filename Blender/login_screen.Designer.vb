@@ -47,34 +47,36 @@ Partial Class login_screen
         '
         Me.lblVersao.AutoSize = True
         Me.lblVersao.BackColor = System.Drawing.Color.Transparent
-        Me.lblVersao.Font = New System.Drawing.Font("Marlin Geo Medium", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.lblVersao.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.lblVersao.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.lblVersao.Location = New System.Drawing.Point(18, 175)
+        Me.lblVersao.Location = New System.Drawing.Point(76, 234)
         Me.lblVersao.Margin = New System.Windows.Forms.Padding(0)
         Me.lblVersao.Name = "lblVersao"
-        Me.lblVersao.Size = New System.Drawing.Size(65, 19)
+        Me.lblVersao.Size = New System.Drawing.Size(84, 24)
         Me.lblVersao.TabIndex = 3
         Me.lblVersao.Text = "v. 1.3.5.1"
         '
         'txtEmail
         '
         Me.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtEmail.Font = New System.Drawing.Font("Marlin Geo Medium", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.txtEmail.Location = New System.Drawing.Point(126, 101)
+        Me.txtEmail.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.txtEmail.Location = New System.Drawing.Point(199, 138)
         Me.txtEmail.Margin = New System.Windows.Forms.Padding(0)
         Me.txtEmail.Name = "txtEmail"
-        Me.txtEmail.Size = New System.Drawing.Size(149, 21)
+        Me.txtEmail.Size = New System.Drawing.Size(170, 20)
         Me.txtEmail.TabIndex = 5
+        Me.txtEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'txtSenha
         '
         Me.txtSenha.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.txtSenha.Font = New System.Drawing.Font("Marlin Geo Medium", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.txtSenha.Location = New System.Drawing.Point(126, 140)
+        Me.txtSenha.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.txtSenha.Location = New System.Drawing.Point(199, 190)
         Me.txtSenha.Margin = New System.Windows.Forms.Padding(0)
         Me.txtSenha.Name = "txtSenha"
-        Me.txtSenha.Size = New System.Drawing.Size(149, 21)
+        Me.txtSenha.Size = New System.Drawing.Size(170, 20)
         Me.txtSenha.TabIndex = 6
+        Me.txtSenha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.txtSenha.UseSystemPasswordChar = True
         '
         'txtClose
@@ -82,11 +84,11 @@ Partial Class login_screen
         Me.txtClose.AutoSize = True
         Me.txtClose.BackColor = System.Drawing.Color.Transparent
         Me.txtClose.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.txtClose.Font = New System.Drawing.Font("Marlin Geo Medium", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel)
-        Me.txtClose.Location = New System.Drawing.Point(375, 13)
+        Me.txtClose.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel)
+        Me.txtClose.Location = New System.Drawing.Point(502, 9)
         Me.txtClose.Margin = New System.Windows.Forms.Padding(0)
         Me.txtClose.Name = "txtClose"
-        Me.txtClose.Size = New System.Drawing.Size(20, 19)
+        Me.txtClose.Size = New System.Drawing.Size(19, 18)
         Me.txtClose.TabIndex = 10
         Me.txtClose.Text = "X"
         '
@@ -95,27 +97,32 @@ Partial Class login_screen
         Me.ptbLogo.BackColor = System.Drawing.Color.Transparent
         Me.ptbLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.ptbLogo.Image = Global.Blender.My.Resources.Resources.logo
-        Me.ptbLogo.Location = New System.Drawing.Point(-17, -100)
+        Me.ptbLogo.Location = New System.Drawing.Point(60, -102)
+        Me.ptbLogo.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ptbLogo.Name = "ptbLogo"
-        Me.ptbLogo.Size = New System.Drawing.Size(395, 196)
+        Me.ptbLogo.Size = New System.Drawing.Size(451, 261)
         Me.ptbLogo.TabIndex = 12
         Me.ptbLogo.TabStop = False
         '
         'ptbEmailText
         '
         Me.ptbEmailText.Image = Global.Blender.My.Resources.Resources.textbox
-        Me.ptbEmailText.Location = New System.Drawing.Point(117, 95)
+        Me.ptbEmailText.Location = New System.Drawing.Point(189, 128)
+        Me.ptbEmailText.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ptbEmailText.Name = "ptbEmailText"
-        Me.ptbEmailText.Size = New System.Drawing.Size(167, 32)
+        Me.ptbEmailText.Size = New System.Drawing.Size(191, 43)
+        Me.ptbEmailText.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ptbEmailText.TabIndex = 13
         Me.ptbEmailText.TabStop = False
         '
         'ptbSenhaText
         '
         Me.ptbSenhaText.Image = Global.Blender.My.Resources.Resources.textbox
-        Me.ptbSenhaText.Location = New System.Drawing.Point(117, 134)
+        Me.ptbSenhaText.Location = New System.Drawing.Point(189, 180)
+        Me.ptbSenhaText.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ptbSenhaText.Name = "ptbSenhaText"
-        Me.ptbSenhaText.Size = New System.Drawing.Size(167, 32)
+        Me.ptbSenhaText.Size = New System.Drawing.Size(191, 43)
+        Me.ptbSenhaText.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ptbSenhaText.TabIndex = 14
         Me.ptbSenhaText.TabStop = False
         '
@@ -123,27 +130,30 @@ Partial Class login_screen
         '
         Me.ptbEntrar.Cursor = System.Windows.Forms.Cursors.Hand
         Me.ptbEntrar.Image = Global.Blender.My.Resources.Resources.entrar
-        Me.ptbEntrar.Location = New System.Drawing.Point(296, 116)
+        Me.ptbEntrar.Location = New System.Drawing.Point(393, 156)
+        Me.ptbEntrar.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ptbEntrar.Name = "ptbEntrar"
-        Me.ptbEntrar.Size = New System.Drawing.Size(87, 32)
+        Me.ptbEntrar.Size = New System.Drawing.Size(99, 43)
         Me.ptbEntrar.TabIndex = 15
         Me.ptbEntrar.TabStop = False
         '
         'ptbEmailLabel
         '
         Me.ptbEmailLabel.Image = Global.Blender.My.Resources.Resources.email
-        Me.ptbEmailLabel.Location = New System.Drawing.Point(18, 95)
+        Me.ptbEmailLabel.Location = New System.Drawing.Point(76, 128)
+        Me.ptbEmailLabel.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ptbEmailLabel.Name = "ptbEmailLabel"
-        Me.ptbEmailLabel.Size = New System.Drawing.Size(87, 32)
+        Me.ptbEmailLabel.Size = New System.Drawing.Size(99, 43)
         Me.ptbEmailLabel.TabIndex = 16
         Me.ptbEmailLabel.TabStop = False
         '
         'ptbSenhaLabel
         '
         Me.ptbSenhaLabel.Image = Global.Blender.My.Resources.Resources.senha
-        Me.ptbSenhaLabel.Location = New System.Drawing.Point(18, 138)
+        Me.ptbSenhaLabel.Location = New System.Drawing.Point(76, 185)
+        Me.ptbSenhaLabel.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ptbSenhaLabel.Name = "ptbSenhaLabel"
-        Me.ptbSenhaLabel.Size = New System.Drawing.Size(87, 32)
+        Me.ptbSenhaLabel.Size = New System.Drawing.Size(99, 43)
         Me.ptbSenhaLabel.TabIndex = 17
         Me.ptbSenhaLabel.TabStop = False
         '
@@ -151,33 +161,33 @@ Partial Class login_screen
         '
         Me.ptbEsqSenha.Cursor = System.Windows.Forms.Cursors.Hand
         Me.ptbEsqSenha.Image = Global.Blender.My.Resources.Resources.esquecisenha
-        Me.ptbEsqSenha.Location = New System.Drawing.Point(141, 177)
+        Me.ptbEsqSenha.Location = New System.Drawing.Point(216, 237)
+        Me.ptbEsqSenha.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ptbEsqSenha.Name = "ptbEsqSenha"
-        Me.ptbEsqSenha.Size = New System.Drawing.Size(116, 19)
+        Me.ptbEsqSenha.Size = New System.Drawing.Size(133, 25)
         Me.ptbEsqSenha.TabIndex = 18
         Me.ptbEsqSenha.TabStop = False
         '
         'login_screen
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(19, Byte), Integer), CType(CType(185, Byte), Integer), CType(CType(94, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(400, 200)
+        Me.ClientSize = New System.Drawing.Size(545, 302)
         Me.Controls.Add(Me.ptbEsqSenha)
         Me.Controls.Add(Me.ptbSenhaLabel)
         Me.Controls.Add(Me.ptbEmailLabel)
         Me.Controls.Add(Me.ptbEntrar)
         Me.Controls.Add(Me.txtClose)
-        Me.Controls.Add(Me.txtSenha)
         Me.Controls.Add(Me.txtEmail)
         Me.Controls.Add(Me.lblVersao)
-        Me.Controls.Add(Me.ptbLogo)
         Me.Controls.Add(Me.ptbEmailText)
+        Me.Controls.Add(Me.ptbLogo)
+        Me.Controls.Add(Me.txtSenha)
         Me.Controls.Add(Me.ptbSenhaText)
         Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "login_screen"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Blender - Tela de Login"

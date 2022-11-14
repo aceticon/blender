@@ -42,3 +42,30 @@ C:\Users\Breno\source\repos\blender\Blender\bin\Debug\net6.0-windows\BouncyCastl
 C:\Users\Breno\source\repos\blender\Blender\obj\Debug\net6.0-windows\Blender.vbproj.CopyComplete
 C:\Users\Breno\source\repos\blender\Blender\bin\Debug\net6.0-windows\BCrypt.Net-Next.dll
 C:\Users\Breno\source\repos\blender\Blender\obj\Debug\net6.0-windows\Blender.Resources.resources
+C:\Users\Eric Vinicius\Desktop\blender\Blender\bin\Debug\net6.0-windows\Blender.exe
+C:\Users\Eric Vinicius\Desktop\blender\Blender\bin\Debug\net6.0-windows\Blender.deps.json
+C:\Users\Eric Vinicius\Desktop\blender\Blender\bin\Debug\net6.0-windows\Blender.runtimeconfig.json
+C:\Users\Eric Vinicius\Desktop\blender\Blender\bin\Debug\net6.0-windows\Blender.dll
+C:\Users\Eric Vinicius\Desktop\blender\Blender\bin\Debug\net6.0-windows\Blender.pdb
+C:\Users\Eric Vinicius\Desktop\blender\Blender\bin\Debug\net6.0-windows\BCrypt.Net-Next.dll
+C:\Users\Eric Vinicius\Desktop\blender\Blender\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\Eric Vinicius\Desktop\blender\Blender\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Eric Vinicius\Desktop\blender\Blender\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Eric Vinicius\Desktop\blender\Blender\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Eric Vinicius\Desktop\blender\Blender\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\Eric Vinicius\Desktop\blender\Blender\bin\Debug\net6.0-windows\ZstdNet.dll
+C:\Users\Eric Vinicius\Desktop\blender\Blender\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\Eric Vinicius\Desktop\blender\Blender\obj\Debug\net6.0-windows\Blender.vbproj.AssemblyReference.cache
+C:\Users\Eric Vinicius\Desktop\blender\Blender\obj\Debug\net6.0-windows\Blender.login_screen.resources
+C:\Users\Eric Vinicius\Desktop\blender\Blender\obj\Debug\net6.0-windows\Blender.Resources.resources
+C:\Users\Eric Vinicius\Desktop\blender\Blender\obj\Debug\net6.0-windows\Blender.vbproj.GenerateResource.cache
+C:\Users\Eric Vinicius\Desktop\blender\Blender\obj\Debug\net6.0-windows\Blender.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eric Vinicius\Desktop\blender\Blender\obj\Debug\net6.0-windows\Blender.AssemblyInfoInputs.cache
+C:\Users\Eric Vinicius\Desktop\blender\Blender\obj\Debug\net6.0-windows\Blender.AssemblyInfo.vb
+C:\Users\Eric Vinicius\Desktop\blender\Blender\obj\Debug\net6.0-windows\Blender.vbproj.CoreCompileInputs.cache
+C:\Users\Eric Vinicius\Desktop\blender\Blender\obj\Debug\net6.0-windows\Blender.vbproj.CopyComplete
+C:\Users\Eric Vinicius\Desktop\blender\Blender\obj\Debug\net6.0-windows\Blender.dll
+C:\Users\Eric Vinicius\Desktop\blender\Blender\obj\Debug\net6.0-windows\refint\Blender.dll
+C:\Users\Eric Vinicius\Desktop\blender\Blender\obj\Debug\net6.0-windows\Blender.pdb
+C:\Users\Eric Vinicius\Desktop\blender\Blender\obj\Debug\net6.0-windows\Blender.genruntimeconfig.cache
+C:\Users\Eric Vinicius\Desktop\blender\Blender\obj\Debug\net6.0-windows\ref\Blender.dll

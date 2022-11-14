@@ -41,3 +41,4 @@ C:\Users\Breno\source\repos\blender\Blender\bin\Debug\net6.0-windows\ZstdNet.dll
 C:\Users\Breno\source\repos\blender\Blender\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
 C:\Users\Breno\source\repos\blender\Blender\obj\Debug\net6.0-windows\Blender.vbproj.CopyComplete
 C:\Users\Breno\source\repos\blender\Blender\bin\Debug\net6.0-windows\BCrypt.Net-Next.dll
+C:\Users\Breno\source\repos\blender\Blender\obj\Debug\net6.0-windows\Blender.Resources.resources

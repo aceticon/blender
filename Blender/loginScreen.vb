@@ -1,18 +1,18 @@
 ﻿Imports System.Net.Mail
 Imports MySql.Data.MySqlClient
 
-Public Class login_screen
+Public Class loginScreen
 
     Dim connection As New MySqlConnection("datasource=ec2-54-207-202-146.sa-east-1.compute.amazonaws.com;
         port=3306;username=root;password=@Vemseraceticon2022;database=blendcapital")
 
-    Private Sub login_screen_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub loginScreen_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         Me.SuspendLayout()
 
         Me.FormBorderStyle = FormBorderStyle.None
-        Me.Height = 280
-        Me.Width = 530
+        Me.Height = 200
+        Me.Width = 400
 
         Dim p As New Drawing2D.GraphicsPath()
 
@@ -30,7 +30,7 @@ Public Class login_screen
 
     End Sub
 
-    Private Sub txtClose_Click(sender As Object, e As EventArgs) Handles txtClose.Click
+    Private Sub lblClose_Click(sender As Object, e As EventArgs) Handles lblClose.Click
 
         Application.ExitThread()
 
@@ -59,7 +59,8 @@ Public Class login_screen
 
         For Each row As DataRow In table.Rows
 
-            MsgBox("Usuário logado!", vbInformation)
+            frmDashboard.Show()
+            Me.Close()
             Return
 
         Next
@@ -73,4 +74,5 @@ Public Class login_screen
         MsgBox("Entre em contato com o suporte para soliciar a recuperação de senha!", vbInformation)
 
     End Sub
+
 End Class

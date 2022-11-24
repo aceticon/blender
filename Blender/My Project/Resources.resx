@@ -118,67 +118,172 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="entrar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Imagens\Login\entrar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="senha" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Imagens\Login\senha.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Calculadora de Rubi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Imagens\Dashboard\Calculadora de Rubi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Tutoriais" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Imagens\Dashboard\Tutoriais.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Emails Blend" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Imagens\Dashboard\Emails Blend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ofertas Publicas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Mid\Ofertas Publicas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Contabilidade da Bolsa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Imagens\Dashboard\Contabilidade da Bolsa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Principal\Contabilidade da Bolsa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Emails XP" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Imagens\Dashboard\Emails XP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Emails Blend3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Brokers\Emails Blend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Middle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Imagens\Dashboard\Middle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Calculadora de Rubi1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Mid\Calculadora de Rubi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Horario XP2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Investors\Horario XP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sair" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Sair.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ofertas Publicas1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Mid\Ofertas Publicas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Movimentacoes Financeiras" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Imagens\Dashboard\Movimentacoes Financeiras.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Principal\Movimentacoes Financeiras.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Imagens\Login\logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Borda1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Borda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Tranferencia de Custodia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Imagens\Dashboard\Tranferencia de Custodia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Resgate Express" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Imagens\Dashboard\Resgate Express.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Horario XP" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Imagens\Dashboard\Horario XP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Calculadora de Rubi3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Brokers\Calculadora de Rubi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Logo-Blend-Azul" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Imagens\Logo-Blend-Azul.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Status Demandas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Imagens\Dashboard\Status Demandas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Tutoriais2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Investors\Tutoriais.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Previdencia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Imagens\Dashboard\Previdencia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Resgate Express1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Investors\Resgate Express.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Long &amp; Short" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Brokers\Long &amp; Short.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Movimentacoes Financeiras1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Mid\Movimentacoes Financeiras.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Cadastro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Imagens\Dashboard\Cadastro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Principal\Cadastro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tutoriais1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Investors\Tutoriais.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Login\logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oportunidades" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Investors\Oportunidades.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Horario XP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Principal\Horario XP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Historico de Ordens" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Investors\Historico de Ordens.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tranferencia de Custodia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Principal\Tranferencia de Custodia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Emails Blend2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Investors\Emails Blend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Horario XP3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Brokers\Horario XP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Borda" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Imagens\Dashboard\Borda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="email" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Assets\Imagens\Login\email.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Tutoriais" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Principal\Tutoriais.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Emails Blend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Principal\Emails Blend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Borda 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Investors\Borda 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="esquecisenha" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Imagens\Login\esquecisenha.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="email" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Login\email.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="entrar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Login\entrar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="textbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Imagens\Login\textbox.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ofertas Publicas2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Brokers\Ofertas Publicas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Previdencia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Principal\Previdencia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Horario XP1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Investors\Horario XP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Iniciar Jornada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Iniciar Jornada.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Emails XP2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Investors\Emails XP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Emails XP1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Investors\Emails XP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Emails XP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Principal\Emails XP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gerador de Ordens" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Brokers\Gerador de Ordens.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status Demandas2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Investors\Status Demandas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Emails XP3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Brokers\Emails XP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Saldo de Clientes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Brokers\Saldo de Clientes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Movimentacoes Financeiras2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Mid\Movimentacoes Financeiras.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status Demandas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Principal\Status Demandas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Emails Blend1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Investors\Emails Blend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Resgate Express2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Investors\Resgate Express.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="senha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Login\senha.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Act" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Investors\Act.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Middle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Principal\Middle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calculadora de Rubi2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Mid\Calculadora de Rubi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Status Demandas1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Investors\Status Demandas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Carteiras" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Brokers\Carteiras.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calculadora de Rubi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Principal\Calculadora de Rubi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Resgate Express" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Dashboard - Principal\Resgate Express.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mesa de Execuções" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Imagens\Dashboard\Mesa de Execuções.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

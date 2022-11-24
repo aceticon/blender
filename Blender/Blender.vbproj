@@ -6,7 +6,12 @@
     <StartupObject>Sub Main</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
+    <ApplicationIcon>Assets\Imagens\logo(icone).ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Imagens\logo(icone).ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <Import Include="System.Data" />

@@ -1,12 +1,12 @@
 ﻿Imports System.Net.Mail
 Imports MySql.Data.MySqlClient
 
-Public Class loginScreen
+Public Class frmLoginScreen
 
     Dim connection As New MySqlConnection("datasource=ec2-54-207-202-146.sa-east-1.compute.amazonaws.com;
         port=3306;username=root;password=@Vemseraceticon2022;database=blendcapital")
 
-    Private Sub loginScreen_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub frmLoginScreen_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         Me.SuspendLayout()
 
@@ -47,7 +47,7 @@ Public Class loginScreen
 
         Dim address As New MailAddress(txtEmail.Text)
 
-        Dim command As New MySqlCommand("SELECT email, senha FROM blendcapital.usuario
+        Dim command As New MySqlCommand("SELECT * FROM blendcapital.usuario
             WHERE email = @email;", connection)
 
         command.Parameters.Add("@email", MySqlDbType.VarChar).Value = address
@@ -59,9 +59,33 @@ Public Class loginScreen
 
         For Each row As DataRow In table.Rows
 
-            frmDashboard.Show()
-            Me.Close()
-            Return
+            If String.Equals(txtSenha.Text, row.Item("senha")) Then
+
+                Select Case row.Item("id")
+
+                    Case 1
+                        frmDashPrin.Show()
+                        Me.Close()
+                        Return
+
+                    Case 2
+                        frmDashMid.Show()
+                        Me.Close()
+                        Return
+
+                    Case 3
+                        frmDashInvest.Show()
+                        Me.Close()
+                        Return
+
+                    Case 4
+                        frmDashBrokers.Show()
+                        Me.Close()
+                        Return
+
+                End Select
+
+            End If
 
         Next
 

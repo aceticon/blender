@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class loginScreen
+Partial Class frmLoginScreen
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,7 +22,7 @@ Partial Class loginScreen
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(loginScreen))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmLoginScreen))
         Me.ptbLogo = New System.Windows.Forms.PictureBox()
         Me.lblClose = New System.Windows.Forms.Label()
         Me.txtEmail = New System.Windows.Forms.TextBox()
@@ -187,7 +187,7 @@ Partial Class loginScreen
         Me.Label1.TabIndex = 11
         Me.Label1.Text = "v. 1.0.0.0"
         '
-        'loginScreen
+        'frmLoginScreen
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -206,7 +206,7 @@ Partial Class loginScreen
         Me.Controls.Add(Me.ptbLogo)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Name = "loginScreen"
+        Me.Name = "frmLoginScreen"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Blender - Login"
         CType(Me.ptbLogo, System.ComponentModel.ISupportInitialize).EndInit()

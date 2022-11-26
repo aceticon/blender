@@ -40,7 +40,7 @@ Partial Class frmDashMid
         '
         'ptbLogo
         '
-        Me.ptbLogo.Image = Global.Blender.My.Resources.Resources.Logo_Blend_Azul
+
         Me.ptbLogo.Location = New System.Drawing.Point(12, 12)
         Me.ptbLogo.Name = "ptbLogo"
         Me.ptbLogo.Size = New System.Drawing.Size(128, 56)
@@ -51,7 +51,7 @@ Partial Class frmDashMid
         'ptbOfePub
         '
         Me.ptbOfePub.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.ptbOfePub.Image = Global.Blender.My.Resources.Resources.Ofertas_Publicas1
+
         Me.ptbOfePub.Location = New System.Drawing.Point(587, 482)
         Me.ptbOfePub.Name = "ptbOfePub"
         Me.ptbOfePub.Size = New System.Drawing.Size(128, 103)
@@ -77,7 +77,7 @@ Partial Class frmDashMid
         Me.ptbMovFin.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.ptbMovFin.BackColor = System.Drawing.Color.Transparent
         Me.ptbMovFin.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.ptbMovFin.Image = Global.Blender.My.Resources.Resources.Movimentacoes_Financeiras2
+
         Me.ptbMovFin.Location = New System.Drawing.Point(460, 560)
         Me.ptbMovFin.Name = "ptbMovFin"
         Me.ptbMovFin.Size = New System.Drawing.Size(101, 103)
@@ -89,7 +89,7 @@ Partial Class frmDashMid
         '
         Me.ptbCalcRubi.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.ptbCalcRubi.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.ptbCalcRubi.Image = Global.Blender.My.Resources.Resources.Calculadora_de_Rubi2
+
         Me.ptbCalcRubi.Location = New System.Drawing.Point(736, 560)
         Me.ptbCalcRubi.Name = "ptbCalcRubi"
         Me.ptbCalcRubi.Size = New System.Drawing.Size(101, 103)
@@ -101,7 +101,7 @@ Partial Class frmDashMid
         '
         Me.ptbBorda.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ptbBorda.Image = Global.Blender.My.Resources.Resources.Borda
+
         Me.ptbBorda.Location = New System.Drawing.Point(432, 396)
         Me.ptbBorda.Name = "ptbBorda"
         Me.ptbBorda.Size = New System.Drawing.Size(428, 289)
@@ -113,7 +113,7 @@ Partial Class frmDashMid
         '
         Me.ptbSair.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ptbSair.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.ptbSair.Image = Global.Blender.My.Resources.Resources.Sair
+
         Me.ptbSair.Location = New System.Drawing.Point(736, 698)
         Me.ptbSair.Margin = New System.Windows.Forms.Padding(0)
         Me.ptbSair.Name = "ptbSair"

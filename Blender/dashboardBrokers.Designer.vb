@@ -56,7 +56,7 @@ Partial Class frmDashBrokers
         '
         'ptbLogo
         '
-        Me.ptbLogo.Image = Global.Blender.My.Resources.Resources.Logo_Blend_Azul
+
         Me.ptbLogo.Location = New System.Drawing.Point(12, 12)
         Me.ptbLogo.Name = "ptbLogo"
         Me.ptbLogo.Size = New System.Drawing.Size(128, 56)
@@ -86,7 +86,7 @@ Partial Class frmDashBrokers
         Me.ptbHorXP.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ptbHorXP.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.ptbHorXP.Image = Global.Blender.My.Resources.Resources.Horario_XP3
+
         Me.ptbHorXP.Location = New System.Drawing.Point(6, 6)
         Me.ptbHorXP.Name = "ptbHorXP"
         Me.ptbHorXP.Size = New System.Drawing.Size(177, 42)
@@ -99,7 +99,7 @@ Partial Class frmDashBrokers
         Me.ptbEmailBlend.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ptbEmailBlend.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.ptbEmailBlend.Image = Global.Blender.My.Resources.Resources.Emails_Blend3
+
         Me.ptbEmailBlend.Location = New System.Drawing.Point(189, 6)
         Me.ptbEmailBlend.Name = "ptbEmailBlend"
         Me.ptbEmailBlend.Size = New System.Drawing.Size(177, 42)
@@ -112,7 +112,7 @@ Partial Class frmDashBrokers
         Me.ptbEmailXP.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ptbEmailXP.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.ptbEmailXP.Image = Global.Blender.My.Resources.Resources.Emails_XP3
+
         Me.ptbEmailXP.Location = New System.Drawing.Point(372, 6)
         Me.ptbEmailXP.Name = "ptbEmailXP"
         Me.ptbEmailXP.Size = New System.Drawing.Size(177, 42)
@@ -125,7 +125,7 @@ Partial Class frmDashBrokers
         Me.ptbTutorial.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ptbTutorial.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.ptbTutorial.Image = Global.Blender.My.Resources.Resources.Carteiras
+
         Me.ptbTutorial.Location = New System.Drawing.Point(555, 6)
         Me.ptbTutorial.Name = "ptbTutorial"
         Me.ptbTutorial.Size = New System.Drawing.Size(177, 42)
@@ -138,7 +138,7 @@ Partial Class frmDashBrokers
         Me.ptbStatDeman.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ptbStatDeman.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.ptbStatDeman.Image = Global.Blender.My.Resources.Resources.Long___Short
+
         Me.ptbStatDeman.Location = New System.Drawing.Point(738, 6)
         Me.ptbStatDeman.Name = "ptbStatDeman"
         Me.ptbStatDeman.Size = New System.Drawing.Size(177, 42)
@@ -163,7 +163,7 @@ Partial Class frmDashBrokers
         '
         Me.ptbBorda.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ptbBorda.Image = Global.Blender.My.Resources.Resources.Borda
+
         Me.ptbBorda.Location = New System.Drawing.Point(846, 261)
         Me.ptbBorda.Name = "ptbBorda"
         Me.ptbBorda.Size = New System.Drawing.Size(428, 296)
@@ -174,7 +174,7 @@ Partial Class frmDashBrokers
         'ptbOfePub
         '
         Me.ptbOfePub.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.ptbOfePub.Image = Global.Blender.My.Resources.Resources.Ofertas_Publicas2
+
         Me.ptbOfePub.Location = New System.Drawing.Point(885, 435)
         Me.ptbOfePub.Name = "ptbOfePub"
         Me.ptbOfePub.Size = New System.Drawing.Size(128, 103)
@@ -186,7 +186,7 @@ Partial Class frmDashBrokers
         '
         Me.ptbCalcRubi.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.ptbCalcRubi.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.ptbCalcRubi.Image = Global.Blender.My.Resources.Resources.Calculadora_de_Rubi3
+
         Me.ptbCalcRubi.Location = New System.Drawing.Point(1033, 435)
         Me.ptbCalcRubi.Name = "ptbCalcRubi"
         Me.ptbCalcRubi.Size = New System.Drawing.Size(101, 103)
@@ -198,7 +198,7 @@ Partial Class frmDashBrokers
         '
         Me.ptbSalClien.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.ptbSalClien.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.ptbSalClien.Image = Global.Blender.My.Resources.Resources.Saldo_de_Clientes
+
         Me.ptbSalClien.Location = New System.Drawing.Point(1149, 435)
         Me.ptbSalClien.Name = "ptbSalClien"
         Me.ptbSalClien.Size = New System.Drawing.Size(101, 103)
@@ -209,7 +209,7 @@ Partial Class frmDashBrokers
         'ptbGeraOrd
         '
         Me.ptbGeraOrd.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.ptbGeraOrd.Image = Global.Blender.My.Resources.Resources.Gerador_de_Ordens
+
         Me.ptbGeraOrd.Location = New System.Drawing.Point(934, 326)
         Me.ptbGeraOrd.Name = "ptbGeraOrd"
         Me.ptbGeraOrd.Size = New System.Drawing.Size(128, 103)
@@ -222,7 +222,7 @@ Partial Class frmDashBrokers
         Me.ptbMovFin.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.ptbMovFin.BackColor = System.Drawing.Color.Transparent
         Me.ptbMovFin.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.ptbMovFin.Image = Global.Blender.My.Resources.Resources.Movimentacoes_Financeiras
+
         Me.ptbMovFin.Location = New System.Drawing.Point(1098, 326)
         Me.ptbMovFin.Name = "ptbMovFin"
         Me.ptbMovFin.Size = New System.Drawing.Size(101, 103)
@@ -234,7 +234,7 @@ Partial Class frmDashBrokers
         '
         Me.ptbSair.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ptbSair.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.ptbSair.Image = Global.Blender.My.Resources.Resources.Sair
+
         Me.ptbSair.Location = New System.Drawing.Point(1150, 570)
         Me.ptbSair.Margin = New System.Windows.Forms.Padding(0)
         Me.ptbSair.Name = "ptbSair"

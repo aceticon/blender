@@ -48,7 +48,7 @@ Partial Class frmLoginScreen
         Me.ptbLogo.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ptbLogo.Image = Global.Blender.My.Resources.Resources.logo
+        Me.ptbLogo.Image = CType(resources.GetObject("ptbLogo.Image"), System.Drawing.Image)
         Me.ptbLogo.Location = New System.Drawing.Point(-15, -98)
         Me.ptbLogo.Name = "ptbLogo"
         Me.ptbLogo.Size = New System.Drawing.Size(428, 231)
@@ -89,7 +89,7 @@ Partial Class frmLoginScreen
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ptbEmailLabel.BackColor = System.Drawing.Color.Transparent
-        Me.ptbEmailLabel.Image = Global.Blender.My.Resources.Resources.email
+        Me.ptbEmailLabel.Image = CType(resources.GetObject("ptbEmailLabel.Image"), System.Drawing.Image)
         Me.ptbEmailLabel.Location = New System.Drawing.Point(18, 95)
         Me.ptbEmailLabel.Name = "ptbEmailLabel"
         Me.ptbEmailLabel.Size = New System.Drawing.Size(87, 32)
@@ -102,7 +102,7 @@ Partial Class frmLoginScreen
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ptbSenhaLabel.BackColor = System.Drawing.Color.Transparent
-        Me.ptbSenhaLabel.Image = Global.Blender.My.Resources.Resources.senha
+        Me.ptbSenhaLabel.Image = CType(resources.GetObject("ptbSenhaLabel.Image"), System.Drawing.Image)
         Me.ptbSenhaLabel.Location = New System.Drawing.Point(18, 138)
         Me.ptbSenhaLabel.Name = "ptbSenhaLabel"
         Me.ptbSenhaLabel.Size = New System.Drawing.Size(87, 32)
@@ -116,7 +116,7 @@ Partial Class frmLoginScreen
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ptbEntrar.BackColor = System.Drawing.Color.Transparent
         Me.ptbEntrar.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.ptbEntrar.Image = Global.Blender.My.Resources.Resources.entrar
+        Me.ptbEntrar.Image = CType(resources.GetObject("ptbEntrar.Image"), System.Drawing.Image)
         Me.ptbEntrar.Location = New System.Drawing.Point(296, 116)
         Me.ptbEntrar.Name = "ptbEntrar"
         Me.ptbEntrar.Size = New System.Drawing.Size(87, 32)
@@ -129,7 +129,7 @@ Partial Class frmLoginScreen
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ptbEsqSenha.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.ptbEsqSenha.Image = Global.Blender.My.Resources.Resources.esquecisenha
+        Me.ptbEsqSenha.Image = CType(resources.GetObject("ptbEsqSenha.Image"), System.Drawing.Image)
         Me.ptbEsqSenha.Location = New System.Drawing.Point(141, 177)
         Me.ptbEsqSenha.Name = "ptbEsqSenha"
         Me.ptbEsqSenha.Size = New System.Drawing.Size(116, 19)
@@ -141,7 +141,7 @@ Partial Class frmLoginScreen
         Me.ptbEmail.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ptbEmail.Image = Global.Blender.My.Resources.Resources.textbox
+        Me.ptbEmail.Image = CType(resources.GetObject("ptbEmail.Image"), System.Drawing.Image)
         Me.ptbEmail.Location = New System.Drawing.Point(117, 95)
         Me.ptbEmail.Name = "ptbEmail"
         Me.ptbEmail.Size = New System.Drawing.Size(167, 32)
@@ -153,7 +153,7 @@ Partial Class frmLoginScreen
         Me.ptbSenha.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ptbSenha.Image = Global.Blender.My.Resources.Resources.textbox
+        Me.ptbSenha.Image = CType(resources.GetObject("ptbSenha.Image"), System.Drawing.Image)
         Me.ptbSenha.Location = New System.Drawing.Point(117, 139)
         Me.ptbSenha.Name = "ptbSenha"
         Me.ptbSenha.Size = New System.Drawing.Size(167, 32)

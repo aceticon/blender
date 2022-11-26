@@ -80,3 +80,4 @@ C:\Users\Breno\source\repos\blender\Blender\obj\Debug\net6.0-windows\Blender.frm
 C:\Users\Breno\source\repos\blender\Blender\obj\Debug\net6.0-windows\Blender.frmDashMid.resources
 C:\Users\Breno\source\repos\blender\Blender\obj\Debug\net6.0-windows\Blender.frmDashPrin.resources
 C:\Users\Breno\source\repos\blender\Blender\obj\Debug\net6.0-windows\Blender.frmLoginScreen.resources
+C:\Users\Breno\source\repos\blender\Blender\obj\Debug\net6.0-windows\Blender.frmTransCust.resources

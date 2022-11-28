@@ -6,11 +6,11 @@
     <StartupObject>Sub Main</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
-    <ApplicationIcon>logo(icone).ico</ApplicationIcon>
+    <ApplicationIcon>Assets\Imagens\logo(icone).ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="logo(icone).ico" />
+    <Content Include="Assets\Imagens\logo(icone).ico" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,7 +20,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="MySql.Data" Version="8.0.31" />
   </ItemGroup>
 

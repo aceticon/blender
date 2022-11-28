@@ -36,10 +36,12 @@ Partial Class frmTransCust
         '
         'ptbSafra
         '
+        Me.ptbSafra.Cursor = System.Windows.Forms.Cursors.Hand
         Me.ptbSafra.Image = CType(resources.GetObject("ptbSafra.Image"), System.Drawing.Image)
-        Me.ptbSafra.Location = New System.Drawing.Point(262, 188)
+        Me.ptbSafra.Location = New System.Drawing.Point(302, 240)
+        Me.ptbSafra.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ptbSafra.Name = "ptbSafra"
-        Me.ptbSafra.Size = New System.Drawing.Size(473, 71)
+        Me.ptbSafra.Size = New System.Drawing.Size(553, 63)
         Me.ptbSafra.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ptbSafra.TabIndex = 0
         Me.ptbSafra.TabStop = False
@@ -50,10 +52,10 @@ Partial Class frmTransCust
         Me.ptbVoltar.BackColor = System.Drawing.Color.White
         Me.ptbVoltar.Cursor = System.Windows.Forms.Cursors.Hand
         Me.ptbVoltar.Image = CType(resources.GetObject("ptbVoltar.Image"), System.Drawing.Image)
-        Me.ptbVoltar.Location = New System.Drawing.Point(851, 570)
+        Me.ptbVoltar.Location = New System.Drawing.Point(1023, 779)
         Me.ptbVoltar.Margin = New System.Windows.Forms.Padding(0)
         Me.ptbVoltar.Name = "ptbVoltar"
-        Me.ptbVoltar.Size = New System.Drawing.Size(124, 42)
+        Me.ptbVoltar.Size = New System.Drawing.Size(92, 37)
         Me.ptbVoltar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ptbVoltar.TabIndex = 12
         Me.ptbVoltar.TabStop = False
@@ -61,9 +63,10 @@ Partial Class frmTransCust
         'ptbTransCust
         '
         Me.ptbTransCust.Image = CType(resources.GetObject("ptbTransCust.Image"), System.Drawing.Image)
-        Me.ptbTransCust.Location = New System.Drawing.Point(12, 12)
+        Me.ptbTransCust.Location = New System.Drawing.Point(14, 16)
+        Me.ptbTransCust.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ptbTransCust.Name = "ptbTransCust"
-        Me.ptbTransCust.Size = New System.Drawing.Size(963, 60)
+        Me.ptbTransCust.Size = New System.Drawing.Size(1101, 80)
         Me.ptbTransCust.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ptbTransCust.TabIndex = 13
         Me.ptbTransCust.TabStop = False
@@ -71,35 +74,40 @@ Partial Class frmTransCust
         'ptbStvm
         '
         Me.ptbStvm.Image = CType(resources.GetObject("ptbStvm.Image"), System.Drawing.Image)
-        Me.ptbStvm.Location = New System.Drawing.Point(97, 82)
+        Me.ptbStvm.Location = New System.Drawing.Point(192, 104)
+        Me.ptbStvm.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ptbStvm.Name = "ptbStvm"
-        Me.ptbStvm.Size = New System.Drawing.Size(800, 476)
+        Me.ptbStvm.Size = New System.Drawing.Size(744, 635)
         Me.ptbStvm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.ptbStvm.TabIndex = 14
         Me.ptbStvm.TabStop = False
         '
         'txtCodCliente
         '
-        Me.txtCodCliente.Location = New System.Drawing.Point(403, 135)
+        Me.txtCodCliente.Location = New System.Drawing.Point(461, 180)
+        Me.txtCodCliente.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.txtCodCliente.Name = "txtCodCliente"
         Me.txtCodCliente.PlaceholderText = "Código de cliente"
-        Me.txtCodCliente.Size = New System.Drawing.Size(184, 23)
+        Me.txtCodCliente.Size = New System.Drawing.Size(210, 27)
         Me.txtCodCliente.TabIndex = 15
         Me.txtCodCliente.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'frmTransCust
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(984, 621)
+        Me.ClientSize = New System.Drawing.Size(1125, 828)
         Me.Controls.Add(Me.txtCodCliente)
         Me.Controls.Add(Me.ptbTransCust)
         Me.Controls.Add(Me.ptbVoltar)
         Me.Controls.Add(Me.ptbSafra)
         Me.Controls.Add(Me.ptbStvm)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.MaximizeBox = False
         Me.Name = "frmTransCust"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "BLENDER - TRANSFERÊNCIA DE CUSTÓDIA"
         CType(Me.ptbSafra, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ptbVoltar, System.ComponentModel.ISupportInitialize).EndInit()

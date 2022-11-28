@@ -6,6 +6,13 @@ Public Class frmLoginScreen
     Dim connection As New MySqlConnection("datasource=ec2-54-207-202-146.sa-east-1.compute.amazonaws.com;
         port=3306;username=root;password=@Vemseraceticon2022;database=blendcapital")
 
+    Public Sub fadeIn()
+        For fade = 0.0 To 1.1 Step 0.1
+            Me.Opacity = fade
+            Me.Refresh()
+            Threading.Thread.Sleep(100)
+        Next
+    End Sub
     Private Sub frmLoginScreen_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         Me.SuspendLayout()
@@ -28,6 +35,8 @@ Public Class frmLoginScreen
 
         Me.Region = New Region(p)
 
+        fadeIn()
+
     End Sub
 
     Private Sub lblClose_Click(sender As Object, e As EventArgs) Handles lblClose.Click
@@ -38,10 +47,15 @@ Public Class frmLoginScreen
 
     Private Sub ptbEntrar_Click(sender As Object, e As EventArgs) Handles ptbEntrar.Click
 
+        try_access()
+
+    End Sub
+
+    Private Sub try_access()
         Try
             Dim vEmailAddress As New System.Net.Mail.MailAddress(txtEmail.Text)
         Catch ex As Exception
-            MsgBox("Insira um E-mail valido!", vbInformation)
+            MsgBox("Insira um E-mail valido!", vbInformation, "Blender")
             Return
         End Try
 
@@ -65,22 +79,22 @@ Public Class frmLoginScreen
 
                     Case 1
                         frmDashPrin.Show()
-                        Me.Close()
+                        Me.Hide()
                         Return
 
                     Case 2
                         frmDashMid.Show()
-                        Me.Close()
+                        Me.Hide()
                         Return
 
                     Case 3
                         frmDashInvest.Show()
-                        Me.Close()
+                        Me.Hide()
                         Return
 
                     Case 4
                         frmDashBrokers.Show()
-                        Me.Close()
+                        Me.Hide()
                         Return
 
                 End Select
@@ -89,14 +103,18 @@ Public Class frmLoginScreen
 
         Next
 
-        MsgBox("E-mail ou senha invalidos!", vbInformation)
-
+        MsgBox("E-mail ou senha invalidos!", vbExclamation, "Blender")
     End Sub
 
     Private Sub ptbEsqSenha_Click(sender As Object, e As EventArgs) Handles ptbEsqSenha.Click
 
-        MsgBox("Entre em contato com o suporte para soliciar a recuperação de senha!", vbInformation)
+        MsgBox("Entre em contato com o suporte para soliciar a recuperação de senha!", vbInformation, "Blender")
 
     End Sub
 
+    Private Sub txtSenha_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtSenha.KeyPress
+        If AscW(e.KeyChar) = 13 Then
+            try_access()
+        End If
+    End Sub
 End Class

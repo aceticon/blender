@@ -46,26 +46,25 @@ Partial Class frmDashPrin
         '
         'ptbBorda
         '
-        Me.ptbBorda.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.ptbBorda.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.ptbBorda.Image = CType(resources.GetObject("ptbBorda.Image"), System.Drawing.Image)
-        Me.ptbBorda.Location = New System.Drawing.Point(811, 167)
+        Me.ptbBorda.Location = New System.Drawing.Point(872, 65)
         Me.ptbBorda.Name = "ptbBorda"
-        Me.ptbBorda.Size = New System.Drawing.Size(455, 365)
+        Me.ptbBorda.Size = New System.Drawing.Size(455, 393)
         Me.ptbBorda.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.ptbBorda.TabIndex = 2
         Me.ptbBorda.TabStop = False
         '
         'lblCentralOpe
         '
-        Me.lblCentralOpe.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.lblCentralOpe.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.lblCentralOpe.AutoSize = True
         Me.lblCentralOpe.BackColor = System.Drawing.Color.White
-        Me.lblCentralOpe.Font = New System.Drawing.Font("Marlin Geo Medium", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.lblCentralOpe.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.lblCentralOpe.ForeColor = System.Drawing.Color.FromArgb(CType(CType(8, Byte), Integer), CType(CType(1, Byte), Integer), CType(CType(52, Byte), Integer))
-        Me.lblCentralOpe.Location = New System.Drawing.Point(910, 230)
+        Me.lblCentralOpe.Location = New System.Drawing.Point(936, 98)
         Me.lblCentralOpe.Name = "lblCentralOpe"
-        Me.lblCentralOpe.Size = New System.Drawing.Size(264, 26)
+        Me.lblCentralOpe.Size = New System.Drawing.Size(338, 29)
         Me.lblCentralOpe.TabIndex = 4
         Me.lblCentralOpe.Text = "CENTRAL DE OPERAÇÕES"
         '
@@ -75,7 +74,7 @@ Partial Class frmDashPrin
         Me.ptbTranCust.BackColor = System.Drawing.Color.White
         Me.ptbTranCust.Cursor = System.Windows.Forms.Cursors.Hand
         Me.ptbTranCust.Image = CType(resources.GetObject("ptbTranCust.Image"), System.Drawing.Image)
-        Me.ptbTranCust.Location = New System.Drawing.Point(854, 361)
+        Me.ptbTranCust.Location = New System.Drawing.Point(909, 162)
         Me.ptbTranCust.Name = "ptbTranCust"
         Me.ptbTranCust.Size = New System.Drawing.Size(108, 104)
         Me.ptbTranCust.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -88,7 +87,7 @@ Partial Class frmDashPrin
         Me.ptbSair.BackColor = System.Drawing.Color.White
         Me.ptbSair.Cursor = System.Windows.Forms.Cursors.Hand
         Me.ptbSair.Image = CType(resources.GetObject("ptbSair.Image"), System.Drawing.Image)
-        Me.ptbSair.Location = New System.Drawing.Point(1142, 547)
+        Me.ptbSair.Location = New System.Drawing.Point(1203, 575)
         Me.ptbSair.Margin = New System.Windows.Forms.Padding(0)
         Me.ptbSair.Name = "ptbSair"
         Me.ptbSair.Size = New System.Drawing.Size(124, 42)
@@ -98,11 +97,11 @@ Partial Class frmDashPrin
         '
         'frmDashPrin
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.ClientSize = New System.Drawing.Size(1284, 598)
+        Me.ClientSize = New System.Drawing.Size(1345, 626)
         Me.Controls.Add(Me.ptbSair)
         Me.Controls.Add(Me.ptbLogo)
         Me.Controls.Add(Me.lblCentralOpe)

@@ -36,6 +36,7 @@ Partial Class frmTransCust
         '
         'ptbSafra
         '
+        Me.ptbSafra.Cursor = System.Windows.Forms.Cursors.Hand
         Me.ptbSafra.Image = CType(resources.GetObject("ptbSafra.Image"), System.Drawing.Image)
         Me.ptbSafra.Location = New System.Drawing.Point(262, 188)
         Me.ptbSafra.Name = "ptbSafra"
